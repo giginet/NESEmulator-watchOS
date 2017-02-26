@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0737CAE31E1A5127003D8DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737CAE21E1A5127003D8DF8 /* AppDelegate.swift */; };
+		0737CAE51E1A5127003D8DF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737CAE41E1A5127003D8DF8 /* ViewController.swift */; };
+		0737CAE81E1A5127003D8DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0737CAE61E1A5127003D8DF8 /* Main.storyboard */; };
+		0737CAEA1E1A5127003D8DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0737CAE91E1A5127003D8DF8 /* Assets.xcassets */; };
+		0737CAED1E1A5127003D8DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0737CAEB1E1A5127003D8DF8 /* LaunchScreen.storyboard */; };
+		0737CAF21E1A5127003D8DF8 /* NESEmulator WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0737CAF11E1A5127003D8DF8 /* NESEmulator WatchKit App.app */; };
+		0737CAF81E1A5127003D8DF8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0737CAF61E1A5127003D8DF8 /* Interface.storyboard */; };
+		0737CAFA1E1A5127003D8DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0737CAF91E1A5127003D8DF8 /* Assets.xcassets */; };
+		0737CB011E1A5127003D8DF8 /* NESEmulator WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0737CB001E1A5127003D8DF8 /* NESEmulator WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0737CB061E1A5127003D8DF8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737CB051E1A5127003D8DF8 /* InterfaceController.swift */; };
+		0737CB081E1A5127003D8DF8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737CB071E1A5127003D8DF8 /* ExtensionDelegate.swift */; };
+		0737CB0A1E1A5127003D8DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0737CB091E1A5127003D8DF8 /* Assets.xcassets */; };
+		0737D1B61E1A940F003D8DF8 /* EmulatorScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737D1B51E1A940F003D8DF8 /* EmulatorScene.swift */; };
+		0777F4081E1B9D9A0041C611 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737D1D11E1AB120003D8DF8 /* AudioPlayer.swift */; };
+		07F255A31E62C38E0046EBD9 /* PVNES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F255991E62C2320046EBD9 /* PVNES.framework */; };
+		07F255A41E62C38E0046EBD9 /* PVSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F2559A1E62C2320046EBD9 /* PVSupport.framework */; };
+		07F255A71E62C3A30046EBD9 /* PVNES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F255A51E62C3A30046EBD9 /* PVNES.framework */; };
+		07F255A91E62C3A30046EBD9 /* PVSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F255A61E62C3A30046EBD9 /* PVSupport.framework */; };
+		07F255AC1E62C3B90046EBD9 /* smb3.nes in Resources */ = {isa = PBXBuildFile; fileRef = 07F255AB1E62C3B90046EBD9 /* smb3.nes */; };
+		07F255AD1E62C3B90046EBD9 /* smb3.nes in Resources */ = {isa = PBXBuildFile; fileRef = 07F255AB1E62C3B90046EBD9 /* smb3.nes */; };
+		07F566C11E51E07900249932 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F566C01E51E07900249932 /* GameController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0737CAF31E1A5127003D8DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0737CAD71E1A5127003D8DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0737CAF01E1A5127003D8DF8;
+			remoteInfo = "NESEmulator WatchKit App";
+		};
+		0737CB021E1A5127003D8DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0737CAD71E1A5127003D8DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0737CAFF1E1A5127003D8DF8;
+			remoteInfo = "NESEmulator WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0737CB111E1A5127003D8DF8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0737CB011E1A5127003D8DF8 /* NESEmulator WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0737CB151E1A5127003D8DF8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0737CAF21E1A5127003D8DF8 /* NESEmulator WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0737CADF1E1A5127003D8DF8 /* NESEmulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NESEmulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0737CAE21E1A5127003D8DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0737CAE41E1A5127003D8DF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0737CAE71E1A5127003D8DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0737CAE91E1A5127003D8DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0737CAEC1E1A5127003D8DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0737CAEE1E1A5127003D8DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0737CAF11E1A5127003D8DF8 /* NESEmulator WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NESEmulator WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0737CAF71E1A5127003D8DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0737CAF91E1A5127003D8DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0737CAFB1E1A5127003D8DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0737CB001E1A5127003D8DF8 /* NESEmulator WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NESEmulator WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0737CB051E1A5127003D8DF8 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0737CB071E1A5127003D8DF8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		0737CB091E1A5127003D8DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0737CB0B1E1A5127003D8DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0737D1B51E1A940F003D8DF8 /* EmulatorScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmulatorScene.swift; sourceTree = "<group>"; };
+		0737D1D11E1AB120003D8DF8 /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		07F255991E62C2320046EBD9 /* PVNES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PVNES.framework; path = Carthage/Build/watchOS/PVNES.framework; sourceTree = "<group>"; };
+		07F2559A1E62C2320046EBD9 /* PVSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PVSupport.framework; path = Carthage/Build/watchOS/PVSupport.framework; sourceTree = "<group>"; };
+		07F255A51E62C3A30046EBD9 /* PVNES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PVNES.framework; path = Carthage/Build/watchOS/PVNES.framework; sourceTree = "<group>"; };
+		07F255A61E62C3A30046EBD9 /* PVSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PVSupport.framework; path = Carthage/Build/watchOS/PVSupport.framework; sourceTree = "<group>"; };
+		07F255AB1E62C3B90046EBD9 /* smb3.nes */ = {isa = PBXFileReference; lastKnownFileType = file; name = smb3.nes; path = roms/smb3.nes; sourceTree = "<group>"; };
+		07F566C01E51E07900249932 /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0737CADC1E1A5127003D8DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0737CAFD1E1A5127003D8DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F255A91E62C3A30046EBD9 /* PVSupport.framework in Frameworks */,
+				07F255A71E62C3A30046EBD9 /* PVNES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0737D1B01E1A925A003D8DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F255A31E62C38E0046EBD9 /* PVNES.framework in Frameworks */,
+				07F255A41E62C38E0046EBD9 /* PVSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0737CAD61E1A5127003D8DF8 = {
+			isa = PBXGroup;
+			children = (
+				07F255AE1E62C3CA0046EBD9 /* Frameworks */,
+				0737CAE11E1A5127003D8DF8 /* NESEmulator */,
+				0737CAF51E1A5127003D8DF8 /* NESEmulator WatchKit App */,
+				0737CB041E1A5127003D8DF8 /* NESEmulator WatchKit Extension */,
+				0737CAE01E1A5127003D8DF8 /* Products */,
+				0777F4091E1B9DB10041C611 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0737CAE01E1A5127003D8DF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0737CADF1E1A5127003D8DF8 /* NESEmulator.app */,
+				0737CAF11E1A5127003D8DF8 /* NESEmulator WatchKit App.app */,
+				0737CB001E1A5127003D8DF8 /* NESEmulator WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0737CAE11E1A5127003D8DF8 /* NESEmulator */ = {
+			isa = PBXGroup;
+			children = (
+				0737CAE21E1A5127003D8DF8 /* AppDelegate.swift */,
+				0737CAE41E1A5127003D8DF8 /* ViewController.swift */,
+				0737CAE61E1A5127003D8DF8 /* Main.storyboard */,
+				0737CAE91E1A5127003D8DF8 /* Assets.xcassets */,
+				0737CAEB1E1A5127003D8DF8 /* LaunchScreen.storyboard */,
+				0737CAEE1E1A5127003D8DF8 /* Info.plist */,
+			);
+			path = NESEmulator;
+			sourceTree = "<group>";
+		};
+		0737CAF51E1A5127003D8DF8 /* NESEmulator WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0737CAF61E1A5127003D8DF8 /* Interface.storyboard */,
+				0737CAF91E1A5127003D8DF8 /* Assets.xcassets */,
+				0737CAFB1E1A5127003D8DF8 /* Info.plist */,
+			);
+			path = "NESEmulator WatchKit App";
+			sourceTree = "<group>";
+		};
+		0737CB041E1A5127003D8DF8 /* NESEmulator WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				07F255981E62C18B0046EBD9 /* roms */,
+				0737CB051E1A5127003D8DF8 /* InterfaceController.swift */,
+				0737CB071E1A5127003D8DF8 /* ExtensionDelegate.swift */,
+				0737CB091E1A5127003D8DF8 /* Assets.xcassets */,
+				0737CB0B1E1A5127003D8DF8 /* Info.plist */,
+				0737D1B51E1A940F003D8DF8 /* EmulatorScene.swift */,
+				0737D1D11E1AB120003D8DF8 /* AudioPlayer.swift */,
+				07F566C01E51E07900249932 /* GameController.swift */,
+			);
+			path = "NESEmulator WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0777F4091E1B9DB10041C611 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07F255981E62C18B0046EBD9 /* roms */ = {
+			isa = PBXGroup;
+			children = (
+				07F255AB1E62C3B90046EBD9 /* smb3.nes */,
+			);
+			name = roms;
+			sourceTree = "<group>";
+		};
+		07F255AE1E62C3CA0046EBD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07F255A51E62C3A30046EBD9 /* PVNES.framework */,
+				07F255A61E62C3A30046EBD9 /* PVSupport.framework */,
+				07F255991E62C2320046EBD9 /* PVNES.framework */,
+				07F2559A1E62C2320046EBD9 /* PVSupport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0737CADE1E1A5127003D8DF8 /* NESEmulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0737CB161E1A5127003D8DF8 /* Build configuration list for PBXNativeTarget "NESEmulator" */;
+			buildPhases = (
+				0737CADB1E1A5127003D8DF8 /* Sources */,
+				0737CADC1E1A5127003D8DF8 /* Frameworks */,
+				0737CADD1E1A5127003D8DF8 /* Resources */,
+				0737CB151E1A5127003D8DF8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0737CAF41E1A5127003D8DF8 /* PBXTargetDependency */,
+			);
+			name = NESEmulator;
+			productName = NESEmulator;
+			productReference = 0737CADF1E1A5127003D8DF8 /* NESEmulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0737CAF01E1A5127003D8DF8 /* NESEmulator WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0737CB121E1A5127003D8DF8 /* Build configuration list for PBXNativeTarget "NESEmulator WatchKit App" */;
+			buildPhases = (
+				0737CAEF1E1A5127003D8DF8 /* Resources */,
+				0737CB111E1A5127003D8DF8 /* Embed App Extensions */,
+				0737D1B01E1A925A003D8DF8 /* Frameworks */,
+				07F255A21E62C3500046EBD9 /* [Carthage] copy frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0737CB031E1A5127003D8DF8 /* PBXTargetDependency */,
+			);
+			name = "NESEmulator WatchKit App";
+			productName = "NESEmulator WatchKit App";
+			productReference = 0737CAF11E1A5127003D8DF8 /* NESEmulator WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0737CAFF1E1A5127003D8DF8 /* NESEmulator WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0737CB0E1E1A5127003D8DF8 /* Build configuration list for PBXNativeTarget "NESEmulator WatchKit Extension" */;
+			buildPhases = (
+				0737CAFC1E1A5127003D8DF8 /* Sources */,
+				0737CAFD1E1A5127003D8DF8 /* Frameworks */,
+				0737CAFE1E1A5127003D8DF8 /* Resources */,
+				07F255A11E62C31A0046EBD9 /* [Carthage] copy frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NESEmulator WatchKit Extension";
+			productName = "NESEmulator WatchKit Extension";
+			productReference = 0737CB001E1A5127003D8DF8 /* NESEmulator WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0737CAD71E1A5127003D8DF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = giginet;
+				TargetAttributes = {
+					0737CADE1E1A5127003D8DF8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2AWR7Z4WYE;
+						ProvisioningStyle = Automatic;
+					};
+					0737CAF01E1A5127003D8DF8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2AWR7Z4WYE;
+						ProvisioningStyle = Automatic;
+					};
+					0737CAFF1E1A5127003D8DF8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2AWR7Z4WYE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0737CADA1E1A5127003D8DF8 /* Build configuration list for PBXProject "NESEmulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0737CAD61E1A5127003D8DF8;
+			productRefGroup = 0737CAE01E1A5127003D8DF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0737CADE1E1A5127003D8DF8 /* NESEmulator */,
+				0737CAF01E1A5127003D8DF8 /* NESEmulator WatchKit App */,
+				0737CAFF1E1A5127003D8DF8 /* NESEmulator WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0737CADD1E1A5127003D8DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0737CAED1E1A5127003D8DF8 /* LaunchScreen.storyboard in Resources */,
+				0737CAEA1E1A5127003D8DF8 /* Assets.xcassets in Resources */,
+				0737CAE81E1A5127003D8DF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0737CAEF1E1A5127003D8DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0737CAFA1E1A5127003D8DF8 /* Assets.xcassets in Resources */,
+				07F255AC1E62C3B90046EBD9 /* smb3.nes in Resources */,
+				0737CAF81E1A5127003D8DF8 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0737CAFE1E1A5127003D8DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0737CB0A1E1A5127003D8DF8 /* Assets.xcassets in Resources */,
+				07F255AD1E62C3B90046EBD9 /* smb3.nes in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07F255A11E62C31A0046EBD9 /* [Carthage] copy frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/watchOS/PVNES.framework",
+				"$(SRCROOT)/Carthage/Build/watchOS/PVSupport.framework",
+			);
+			name = "[Carthage] copy frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		07F255A21E62C3500046EBD9 /* [Carthage] copy frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/watchOS/PVNES.framework",
+				"$(SRCROOT)/Carthage/Build/watchOS/PVSupport.framework",
+			);
+			name = "[Carthage] copy frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0737CADB1E1A5127003D8DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0737CAE51E1A5127003D8DF8 /* ViewController.swift in Sources */,
+				0737CAE31E1A5127003D8DF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0737CAFC1E1A5127003D8DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0737CB081E1A5127003D8DF8 /* ExtensionDelegate.swift in Sources */,
+				07F566C11E51E07900249932 /* GameController.swift in Sources */,
+				0737CB061E1A5127003D8DF8 /* InterfaceController.swift in Sources */,
+				0737D1B61E1A940F003D8DF8 /* EmulatorScene.swift in Sources */,
+				0777F4081E1B9D9A0041C611 /* AudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0737CAF41E1A5127003D8DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0737CAF01E1A5127003D8DF8 /* NESEmulator WatchKit App */;
+			targetProxy = 0737CAF31E1A5127003D8DF8 /* PBXContainerItemProxy */;
+		};
+		0737CB031E1A5127003D8DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0737CAFF1E1A5127003D8DF8 /* NESEmulator WatchKit Extension */;
+			targetProxy = 0737CB021E1A5127003D8DF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0737CAE61E1A5127003D8DF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0737CAE71E1A5127003D8DF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0737CAEB1E1A5127003D8DF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0737CAEC1E1A5127003D8DF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0737CAF61E1A5127003D8DF8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0737CAF71E1A5127003D8DF8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0737CB0C1E1A5127003D8DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0737CB0D1E1A5127003D8DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0737CB0F1E1A5127003D8DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 2AWR7Z4WYE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = "NESEmulator WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PVNES/NES/FCEU/drivers/win/directx",
+					"$(PROJECT_DIR)/PVNES/NES/FCEU/drivers/win/lua/win32",
+					"$(PROJECT_DIR)/PVNES/NES/FCEU/drivers/win/lua/x64",
+				);
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NESEmulator.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		0737CB101E1A5127003D8DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 2AWR7Z4WYE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = "NESEmulator WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PVNES/NES/FCEU/drivers/win/directx",
+					"$(PROJECT_DIR)/PVNES/NES/FCEU/drivers/win/lua/win32",
+					"$(PROJECT_DIR)/PVNES/NES/FCEU/drivers/win/lua/x64",
+				);
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NESEmulator.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		0737CB131E1A5127003D8DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2AWR7Z4WYE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				IBSC_MODULE = NESEmulator_WatchKit_Extension;
+				INFOPLIST_FILE = "NESEmulator WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NESEmulator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		0737CB141E1A5127003D8DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2AWR7Z4WYE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				IBSC_MODULE = NESEmulator_WatchKit_Extension;
+				INFOPLIST_FILE = "NESEmulator WatchKit App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NESEmulator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		0737CB171E1A5127003D8DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2AWR7Z4WYE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = NESEmulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NESEmulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0737CB181E1A5127003D8DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2AWR7Z4WYE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = NESEmulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.giginet.NESEmulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0737CADA1E1A5127003D8DF8 /* Build configuration list for PBXProject "NESEmulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0737CB0C1E1A5127003D8DF8 /* Debug */,
+				0737CB0D1E1A5127003D8DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0737CB0E1E1A5127003D8DF8 /* Build configuration list for PBXNativeTarget "NESEmulator WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0737CB0F1E1A5127003D8DF8 /* Debug */,
+				0737CB101E1A5127003D8DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0737CB121E1A5127003D8DF8 /* Build configuration list for PBXNativeTarget "NESEmulator WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0737CB131E1A5127003D8DF8 /* Debug */,
+				0737CB141E1A5127003D8DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0737CB161E1A5127003D8DF8 /* Build configuration list for PBXNativeTarget "NESEmulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0737CB171E1A5127003D8DF8 /* Debug */,
+				0737CB181E1A5127003D8DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0737CAD71E1A5127003D8DF8 /* Project object */;
+}

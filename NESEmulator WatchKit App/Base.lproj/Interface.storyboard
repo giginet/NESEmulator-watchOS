@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="NESEmulator_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <spriteKitScene alignment="left" id="Dee-Bp-BhR">
+                            <gestureRecognizers>
+                                <longPressGestureRecognizer id="kjp-KR-ExG">
+                                    <connections>
+                                        <action selector="didTapScreen:" destination="AgC-eL-Hgc" id="sCn-BM-AZJ"/>
+                                    </connections>
+                                </longPressGestureRecognizer>
+                            </gestureRecognizers>
+                        </spriteKitScene>
+                    </items>
+                    <connections>
+                        <outlet property="gestureRecognizer" destination="kjp-KR-ExG" id="14M-la-NJD"/>
+                        <outlet property="spriteKitScene" destination="Dee-Bp-BhR" id="bMl-1Z-5Jw"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
