@@ -2,6 +2,8 @@
 
 NES Emulator on Apple Watch :space_invader: :watch:
 
+[Demo](https://www.youtube.com/watch?v=uhx00fWGjOQ)
+
 ![](Documentation/Images/screenshot.png)
 
 ![](Documentation/Images/icon.png)
